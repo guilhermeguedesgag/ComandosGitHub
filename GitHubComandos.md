@@ -3,7 +3,6 @@
 ![](https://img.shields.io/badge/Windows-blue?logo=windows)
 ![](https://img.shields.io/badge/Linux-purple?logo=linux)
 
-
 ### Comandos Principais do GitHub
 
 |    Comando     | Descrição                          |
@@ -19,3 +18,9 @@
 |:---------------------------------:|:-----------------------------------------------------------------------|
 | `$ git rm --cached .nomeDoArquivo` | limpa o cache do git para você inserir o mesmo no .gitignore           |
  |   `git rm --cached nomeDaPasta/`  | limpa o cache para que seja possível adicionar uma pasta no .gitignore |
+
+|         Comando         |                             Descrição                             |
+|:-----------------------:|:-----------------------------------------------------------------:|
+| `git remote add origin` | Adiciona o repositório remoto que você irá subir as configurações |
+| `git remote remove origin`| Remove o diretório remoto que está configurado para subir as alterações|
+
