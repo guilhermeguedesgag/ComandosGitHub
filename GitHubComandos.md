@@ -19,8 +19,13 @@
 | `$ git rm --cached .nomeDoArquivo` | limpa o cache do git para você inserir o mesmo no .gitignore           |
  |   `git rm --cached nomeDaPasta/`  | limpa o cache para que seja possível adicionar uma pasta no .gitignore |
 
-|         Comando         |                             Descrição                             |
-|:-----------------------:|:-----------------------------------------------------------------:|
-| `git remote add origin` | Adiciona o repositório remoto que você irá subir as configurações |
-| `git remote remove origin`| Remove o diretório remoto que está configurado para subir as alterações|
+|         Comando         |                                      Descrição                          |
+|:-----------------------:|:-----------------------------------------------------------------------:|
+| `git remote add origin` |    Adiciona o repositório remoto que você irá subir as configurações    |
+| `git remote remove origin`| Remove o diretório remoto que está configurado para subir as alterações |
+
+|                Comando                |                                 Descrição                                 |
+|:-------------------------------------:|:-------------------------------------------------------------------------:|
+| `git checkout -b  branch/sem_espaços` |         cria outra branch e troca para esta que você está criando         |
+|  `git checkout descricao_da_branch`   | Troca de branch(porém a mesma já deverá existir no seu repositório local  |
 
