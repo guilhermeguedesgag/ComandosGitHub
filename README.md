@@ -17,7 +17,7 @@
 |              Comando              | Descrição                                                              |
 |:---------------------------------:|:-----------------------------------------------------------------------|
 | `$ git rm --cached .nomeDoArquivo` | limpa o cache do git para você inserir o mesmo no .gitignore           |
- |   `git rm --cached nomeDaPasta/`  | limpa o cache para que seja possível adicionar uma pasta no .gitignore |
+ |   `git rm -r --cached nomeDaPasta/`  | limpa o cache para que seja possível adicionar uma pasta no .gitignore |
 
 |         Comando         |                                      Descrição                          |
 |:-----------------------:|:-----------------------------------------------------------------------:|
